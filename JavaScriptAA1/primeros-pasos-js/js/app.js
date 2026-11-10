@@ -32,3 +32,10 @@ const saludo = "Hola, " + alumno;
 console.log(saludo);
 console.log(`${alumno} tiene ${edad} años y estudia ${curso}`);
 console.log("5" + 2, "5" * 2, Number("5") + 2);
+// ===== Paso 7: comparaciones y operadores lógicos =====
+const dinero = 15;
+console.log(dinero >= subtotal, dinero < 5);
+console.log("5" == 5, "5" === 5, 7 !== 7);
+const esMayor = edad >= 18;
+const tieneDinero = dinero >= subtotal;
+console.log(esMayor && tieneDinero, esMayor || false, !matriculado);
